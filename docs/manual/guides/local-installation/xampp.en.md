@@ -1,5 +1,5 @@
 ---
-title: "XAMPP (outmoded)"
+title: "XAMPP (deprecated)"
 menuTitle : "With XAMPP"
 description: "Contao installation with XAMPP"
 weight: 30

@@ -1,5 +1,5 @@
 ---
-title: "XAMPP (veraltet)P"
+title: "XAMPP (veraltet)"
 menuTitle : "Mit XAMPP"
 description: "Lokale Contao Installation mit XAMPP"
 weight: 30
