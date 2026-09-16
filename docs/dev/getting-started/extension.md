@@ -90,7 +90,7 @@ Define your dependencies.
 
 Would you like to define your dependencies (require) interactively [yes]? yes
 Search for a package: contao/core-bundle
-Enter the version constraint to require (or leave blank to use the latest version): ^4.13 || ^5.0
+Enter the version constraint to require (or leave blank to use the latest version): ^{{% siteparam "currentContaoVersion" %}}
 Search for a package: 
 Would you like to define your dev dependencies (require-dev) interactively [yes]? no
 Add PSR-4 autoload mapping? Maps namespace "Somevendor\ContaoExampleBundle" to the entered relative path. [src/, n to skip]: 
@@ -99,7 +99,7 @@ Add PSR-4 autoload mapping? Maps namespace "Somevendor\ContaoExampleBundle" to t
     "name": "somevendor/contao-example-bundle",        
     "type": "contao-bundle",
     "require": {
-        "contao/core-bundle": "^4.13 || ^5.0"
+        "contao/core-bundle": "^{{% siteparam "currentContaoVersion" %}}"
     },
     "license": "LGPL-3.0-or-later",
     "autoload": {
@@ -135,7 +135,7 @@ confirmed this:
     "name": "somevendor/contao-example-bundle",
     "type": "contao-bundle",
     "require": {
-        "contao/core-bundle": "^4.13 || ^5.0"
+        "contao/core-bundle": "^{{% siteparam "currentContaoVersion" %}}"
     },
     "license": "LGPL-3.0-or-later",
     "autoload": {

@@ -206,6 +206,8 @@ The use of `utf8` instead of the `utf8mb4` character set results in a worse UTF8
 
 {{< version-tag "5.6" >}} At least MySQL 5.7.6 and MariaDB 10.4.3 are required to run Contao.
 
+{{< version-tag "6.0" >}} The legacy `utf8`/`utf8mb3`) character set is not supported anymore.
+
 It is further recommended to run MySQL in "strict mode" to prevent corrupt or truncated
 data and to guarantee data integrity.
 

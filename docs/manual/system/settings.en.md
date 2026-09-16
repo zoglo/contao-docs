@@ -279,15 +279,15 @@ contao:
                     # - foobar_transport
                     # - foobar2_transport
 
-                # messenger:consume options. Make sure to always include "--time-limit=60".
+                # messenger:consume options. Make sure to always include "--time-limit=55".
                 options:
 
                     # Default:
-                    - --time-limit=60
+                    - --time-limit=55
 
                     # Examples:
                     # - '--sleep=5'
-                    # - '--time-limit=60'
+                    # - '--time-limit=55'
 
                 # Enables autoscaling.
                 autoscale:
@@ -616,6 +616,13 @@ contao:
         challenge_expiry:     86400
     template_studio:
         enabled:              true
+    pagination:
+
+        # Sets the default range of items for the pagination factory.
+        default_range:        7
+
+    # Automatically refreshes the template hierarchy on every request.
+    auto_refresh_template_hierarchy: null
 ```
 
 
